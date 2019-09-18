@@ -1,0 +1,11 @@
+[package]
+name = "assuan_test"
+version = "0.1.0"
+authors = ["Dave Huseby <dhuseby@linuxfoundation.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+os_pipe = "0.8.2"
+duct = "0.12.0"
